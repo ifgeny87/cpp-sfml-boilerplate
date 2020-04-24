@@ -1,0 +1,1 @@
+curl https://raw.githubusercontent.com/SFML/SFML-Game-Development-Book/master/CMake/FindSFML.cmake > FindSFML.cmake
