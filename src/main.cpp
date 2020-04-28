@@ -10,7 +10,7 @@ struct Objects {
     Sprite smallEarth, middleEarth, bigEarth, coloredEarth;
 };
 
-Texture earthTexture, brickwallTexture;
+Texture earthTexture;
 RenderWindow *window;
 
 void sizeSprite(Sprite &sprite, float size) {
@@ -72,7 +72,6 @@ Objects *init() {
 
     // текстура
     earthTexture.loadFromFile("images/earth.png");
-    brickwallTexture.loadFromFile("images/brickwall.jpg");
 
     // спрайты
     Sprite smallEarth{earthTexture};
